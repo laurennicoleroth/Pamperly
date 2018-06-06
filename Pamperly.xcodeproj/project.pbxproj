@@ -14,6 +14,8 @@
 		9670657520C08D1800FB2806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9670657420C08D1800FB2806 /* Assets.xcassets */; };
 		9670657820C08D1800FB2806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9670657620C08D1800FB2806 /* LaunchScreen.storyboard */; };
 		9670658320C08D1800FB2806 /* PamperlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670658220C08D1800FB2806 /* PamperlyTests.swift */; };
+		B94FBD9D50776BCE42A9DCEE /* Pods_Pamperly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39DB4F0BEE10A029BC206F7 /* Pods_Pamperly.framework */; };
+		E9B056E4CE3E9B00A901C55E /* Pods_PamperlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30E61B1CB11DD1FE8C68F71 /* Pods_PamperlyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394986EBD1952561798DE9E3 /* Pods-PamperlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PamperlyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PamperlyTests/Pods-PamperlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9670656720C08D1800FB2806 /* Pamperly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pamperly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9670656A20C08D1800FB2806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9670656C20C08D1800FB2806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		9670657E20C08D1800FB2806 /* PamperlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PamperlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9670658220C08D1800FB2806 /* PamperlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamperlyTests.swift; sourceTree = "<group>"; };
 		9670658420C08D1800FB2806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D372FB93C1DB379A451A89 /* Pods-Pamperly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pamperly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pamperly/Pods-Pamperly.debug.xcconfig"; sourceTree = "<group>"; };
+		D30E61B1CB11DD1FE8C68F71 /* Pods_PamperlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PamperlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF88F245ED8D09776035D230 /* Pods-PamperlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PamperlyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PamperlyTests/Pods-PamperlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39DB4F0BEE10A029BC206F7 /* Pods_Pamperly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pamperly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27D435B7908E54F4E693A4 /* Pods-Pamperly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pamperly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pamperly/Pods-Pamperly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94FBD9D50776BCE42A9DCEE /* Pods_Pamperly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B056E4CE3E9B00A901C55E /* Pods_PamperlyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C7B1053A2D24403DB06197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39DB4F0BEE10A029BC206F7 /* Pods_Pamperly.framework */,
+				D30E61B1CB11DD1FE8C68F71 /* Pods_PamperlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		160A95DACA79851454861E23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2D372FB93C1DB379A451A89 /* Pods-Pamperly.debug.xcconfig */,
+				FE27D435B7908E54F4E693A4 /* Pods-Pamperly.release.xcconfig */,
+				EF88F245ED8D09776035D230 /* Pods-PamperlyTests.debug.xcconfig */,
+				394986EBD1952561798DE9E3 /* Pods-PamperlyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9670655E20C08D1700FB2806 = {
 			isa = PBXGroup;
 			children = (
 				9670656920C08D1800FB2806 /* Pamperly */,
 				9670658120C08D1800FB2806 /* PamperlyTests */,
 				9670656820C08D1800FB2806 /* Products */,
+				160A95DACA79851454861E23 /* Pods */,
+				13C7B1053A2D24403DB06197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9670658720C08D1800FB2806 /* Build configuration list for PBXNativeTarget "Pamperly" */;
 			buildPhases = (
+				7A71F4B8AA28D0979FA00F8F /* [CP] Check Pods Manifest.lock */,
 				9670656320C08D1800FB2806 /* Sources */,
 				9670656420C08D1800FB2806 /* Frameworks */,
 				9670656520C08D1800FB2806 /* Resources */,
+				6B3FB3F59055AAA4AF993BEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9670658A20C08D1800FB2806 /* Build configuration list for PBXNativeTarget "PamperlyTests" */;
 			buildPhases = (
+				7123FD08C77ADCAC66824A62 /* [CP] Check Pods Manifest.lock */,
 				9670657A20C08D1800FB2806 /* Sources */,
 				9670657B20C08D1800FB2806 /* Frameworks */,
 				9670657C20C08D1800FB2806 /* Resources */,
@@ -196,6 +231,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B3FB3F59055AAA4AF993BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pamperly/Pods-Pamperly-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pamperly/Pods-Pamperly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7123FD08C77ADCAC66824A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PamperlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A71F4B8AA28D0979FA00F8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pamperly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9670656320C08D1800FB2806 /* Sources */ = {
@@ -355,6 +449,7 @@
 		};
 		9670658820C08D1800FB2806 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D372FB93C1DB379A451A89 /* Pods-Pamperly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +465,7 @@
 		};
 		9670658920C08D1800FB2806 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE27D435B7908E54F4E693A4 /* Pods-Pamperly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +481,7 @@
 		};
 		9670658B20C08D1800FB2806 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF88F245ED8D09776035D230 /* Pods-PamperlyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +499,7 @@
 		};
 		9670658C20C08D1800FB2806 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394986EBD1952561798DE9E3 /* Pods-PamperlyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
