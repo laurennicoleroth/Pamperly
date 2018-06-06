@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9670656B20C08D1800FB2806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670656A20C08D1800FB2806 /* AppDelegate.swift */; };
+		9670656D20C08D1800FB2806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670656C20C08D1800FB2806 /* ViewController.swift */; };
+		9670657020C08D1800FB2806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9670656E20C08D1800FB2806 /* Main.storyboard */; };
+		9670657320C08D1800FB2806 /* Pamperly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9670657120C08D1800FB2806 /* Pamperly.xcdatamodeld */; };
+		9670657520C08D1800FB2806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9670657420C08D1800FB2806 /* Assets.xcassets */; };
+		9670657820C08D1800FB2806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9670657620C08D1800FB2806 /* LaunchScreen.storyboard */; };
+		9670658320C08D1800FB2806 /* PamperlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670658220C08D1800FB2806 /* PamperlyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9670657F20C08D1800FB2806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9670655F20C08D1700FB2806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9670656620C08D1800FB2806;
+			remoteInfo = Pamperly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9670656720C08D1800FB2806 /* Pamperly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pamperly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9670656A20C08D1800FB2806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9670656C20C08D1800FB2806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9670656F20C08D1800FB2806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9670657220C08D1800FB2806 /* Pamperly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pamperly.xcdatamodel; sourceTree = "<group>"; };
+		9670657420C08D1800FB2806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9670657720C08D1800FB2806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9670657920C08D1800FB2806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9670657E20C08D1800FB2806 /* PamperlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PamperlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9670658220C08D1800FB2806 /* PamperlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamperlyTests.swift; sourceTree = "<group>"; };
+		9670658420C08D1800FB2806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9670656420C08D1800FB2806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9670657B20C08D1800FB2806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9670655E20C08D1700FB2806 = {
+			isa = PBXGroup;
+			children = (
+				9670656920C08D1800FB2806 /* Pamperly */,
+				9670658120C08D1800FB2806 /* PamperlyTests */,
+				9670656820C08D1800FB2806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9670656820C08D1800FB2806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9670656720C08D1800FB2806 /* Pamperly.app */,
+				9670657E20C08D1800FB2806 /* PamperlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9670656920C08D1800FB2806 /* Pamperly */ = {
+			isa = PBXGroup;
+			children = (
+				9670656A20C08D1800FB2806 /* AppDelegate.swift */,
+				9670656C20C08D1800FB2806 /* ViewController.swift */,
+				9670656E20C08D1800FB2806 /* Main.storyboard */,
+				9670657420C08D1800FB2806 /* Assets.xcassets */,
+				9670657620C08D1800FB2806 /* LaunchScreen.storyboard */,
+				9670657920C08D1800FB2806 /* Info.plist */,
+				9670657120C08D1800FB2806 /* Pamperly.xcdatamodeld */,
+			);
+			path = Pamperly;
+			sourceTree = "<group>";
+		};
+		9670658120C08D1800FB2806 /* PamperlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9670658220C08D1800FB2806 /* PamperlyTests.swift */,
+				9670658420C08D1800FB2806 /* Info.plist */,
+			);
+			path = PamperlyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9670656620C08D1800FB2806 /* Pamperly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9670658720C08D1800FB2806 /* Build configuration list for PBXNativeTarget "Pamperly" */;
+			buildPhases = (
+				9670656320C08D1800FB2806 /* Sources */,
+				9670656420C08D1800FB2806 /* Frameworks */,
+				9670656520C08D1800FB2806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pamperly;
+			productName = Pamperly;
+			productReference = 9670656720C08D1800FB2806 /* Pamperly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9670657D20C08D1800FB2806 /* PamperlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9670658A20C08D1800FB2806 /* Build configuration list for PBXNativeTarget "PamperlyTests" */;
+			buildPhases = (
+				9670657A20C08D1800FB2806 /* Sources */,
+				9670657B20C08D1800FB2806 /* Frameworks */,
+				9670657C20C08D1800FB2806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9670658020C08D1800FB2806 /* PBXTargetDependency */,
+			);
+			name = PamperlyTests;
+			productName = PamperlyTests;
+			productReference = 9670657E20C08D1800FB2806 /* PamperlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9670655F20C08D1700FB2806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lauren Nicole Roth";
+				TargetAttributes = {
+					9670656620C08D1800FB2806 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9670657D20C08D1800FB2806 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9670656620C08D1800FB2806;
+					};
+				};
+			};
+			buildConfigurationList = 9670656220C08D1700FB2806 /* Build configuration list for PBXProject "Pamperly" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9670655E20C08D1700FB2806;
+			productRefGroup = 9670656820C08D1800FB2806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9670656620C08D1800FB2806 /* Pamperly */,
+				9670657D20C08D1800FB2806 /* PamperlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9670656520C08D1800FB2806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9670657820C08D1800FB2806 /* LaunchScreen.storyboard in Resources */,
+				9670657520C08D1800FB2806 /* Assets.xcassets in Resources */,
+				9670657020C08D1800FB2806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9670657C20C08D1800FB2806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9670656320C08D1800FB2806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9670656D20C08D1800FB2806 /* ViewController.swift in Sources */,
+				9670656B20C08D1800FB2806 /* AppDelegate.swift in Sources */,
+				9670657320C08D1800FB2806 /* Pamperly.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9670657A20C08D1800FB2806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9670658320C08D1800FB2806 /* PamperlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9670658020C08D1800FB2806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9670656620C08D1800FB2806 /* Pamperly */;
+			targetProxy = 9670657F20C08D1800FB2806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9670656E20C08D1800FB2806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9670656F20C08D1800FB2806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9670657620C08D1800FB2806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9670657720C08D1800FB2806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9670658520C08D1800FB2806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9670658620C08D1800FB2806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9670658820C08D1800FB2806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = Pamperly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Pamperly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9670658920C08D1800FB2806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = Pamperly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Pamperly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9670658B20C08D1800FB2806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = PamperlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.PamperlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pamperly.app/Pamperly";
+			};
+			name = Debug;
+		};
+		9670658C20C08D1800FB2806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = PamperlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.PamperlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pamperly.app/Pamperly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9670656220C08D1700FB2806 /* Build configuration list for PBXProject "Pamperly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9670658520C08D1800FB2806 /* Debug */,
+				9670658620C08D1800FB2806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9670658720C08D1800FB2806 /* Build configuration list for PBXNativeTarget "Pamperly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9670658820C08D1800FB2806 /* Debug */,
+				9670658920C08D1800FB2806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9670658A20C08D1800FB2806 /* Build configuration list for PBXNativeTarget "PamperlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9670658B20C08D1800FB2806 /* Debug */,
+				9670658C20C08D1800FB2806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9670657120C08D1800FB2806 /* Pamperly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9670657220C08D1800FB2806 /* Pamperly.xcdatamodel */,
+			);
+			currentVersion = 9670657220C08D1800FB2806 /* Pamperly.xcdatamodel */;
+			path = Pamperly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9670655F20C08D1700FB2806 /* Project object */;
+}
